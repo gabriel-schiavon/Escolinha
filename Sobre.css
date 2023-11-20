@@ -1,0 +1,305 @@
+body {
+  background-color: #f5eee8;
+  width: auto;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color:#4b5f88;
+  width: 100%;
+  height: 40px;
+  display: flex;
+}
+
+.Nav {
+  font-size: 0.9em;
+  color: white;
+}
+
+.imgnav{
+  width: 30px;
+  height: 30px;
+  margin-top: -10px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  padding: 0;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+}
+
+#Fotoprincipal {
+  height: 60%;
+  width: 85%;
+  margin: 0;
+  box-shadow: 1vw 1vw 1vw #000;
+  border: solid 1px black;
+}
+
+figure {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 40px;
+  background-color: #4b5f88;
+  margin: 0;
+}
+
+h1 {
+  margin: 0px;
+  color: white;
+
+}
+
+p {
+  margin-top: 80px;
+}
+
+.info {
+  font-size: 1em;
+  text-align: justify;
+  width: 99%;
+  height: 145vh;
+  background-image: url(img/Backgournd-Sobre.jpg);
+  background-size: cover;
+  background-position: center;
+  border: solid 1px black;
+  padding: 0;
+  margin: 0;
+}
+
+footer {
+  width: 100%;
+  height: 40px;
+  background-color: #4b5f88;
+  background-position: center;
+  margin: 0;
+}
+
+@media (min-width: 480px) and (max-width: 599px) {
+
+
+  .Nav {
+    font-size: 1em;
+    color: white;
+  }
+
+  .imgnav{
+    width: 40px;
+    height: 30px;
+    margin-top: -10px;
+  }
+
+  p {
+    margin-top: 60px;
+  }
+
+  .info {
+    font-size: 1.1em;
+    height: 185vh;
+    border: solid 2px black;
+  }
+
+}
+
+@media (min-width: 600px) and (max-width: 767px) {
+
+  nav {
+    height: 50px;
+  }
+
+  .Nav {
+    font-size: 1.2em;
+    color: white;
+  }
+
+  .imgnav{
+    width: 50px;
+    height: 40px;
+    margin-top: -10px;
+  }
+  p {
+    margin-top: 130px;
+  }
+
+  #Fotoprincipal {
+    height: 32vh;
+    width: 85%;
+    border: solid 2px black;
+  }
+
+  figure {
+    height: 80px;
+
+  }
+
+  h1 {
+    color: white;
+    font-size: 2.4em;
+
+  }
+
+  .info {
+    font-size: 1.8em;
+    height: 117vh;
+    border: solid 3px black;
+  }
+
+  
+
+
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+
+  nav {
+    height: 60px;
+  }
+
+  .Nav {
+    font-size: 1.5em;
+    color: white;
+  }
+
+  .imgnav{
+    width: 60px;
+    height: 50px;
+    margin-top: -10px;
+  }
+
+  p {
+    margin-top: 128px;
+  }
+
+  #Fotoprincipal {
+    height: 35vh;
+    width: 85%;
+    border: solid 3px black;
+  }
+
+  figure {
+    height: 85px;
+
+  }
+
+  h1 {
+    color: white;
+    font-size: 2.8em;
+
+  }
+
+  .info {
+    font-size: 2.1em;
+    height: 120vh;
+    border: solid 4px black;
+  }
+
+}
+
+@media (min-width: 1024px) and (max-width: 1199px) {
+
+  nav {
+    height: 65px;
+  }
+
+  .Nav {
+    font-size: 1.6em;
+    color: white;
+  }
+
+  .imgnav{
+    width: 70px;
+    height: 50px;
+    margin-top: -10px;
+  }
+
+  p {
+    margin-top: 70px;
+  }
+
+  #Fotoprincipal {
+    height: 70vh;
+    width: 85%;
+    border: solid 3px black;
+  }
+
+  figure {
+    height: 65px;
+
+  }
+
+  h1 {
+    color: white;
+    font-size: 2.3em;
+
+  }
+
+  .info {
+    font-size: 2.1em;
+    height: 120vh;
+    border: solid 5px black;
+  }
+
+}
+
+@media (min-width: 1200px) {
+
+  nav {
+    height: 60px;
+  }
+
+  .Nav {
+    font-size: 1.7em;
+    
+  }
+
+  .imgnav{
+    width: 70px;
+    height: 50px;
+    margin-top: -10px;
+  }
+
+  #Fotoprincipal {
+    height: 60vh;
+    width: 85%;
+    border: solid 3px black;
+  }
+
+
+  figure {
+    height: 65px;
+
+  }
+
+  h1 {
+    color: white;
+    font-size: 2.2em;
+    word-spacing: 10px;
+  }
+
+  p {
+    margin-top: 130px;
+  }
+
+  .info {
+    font-size: 2.3em;
+    height: 105vh;
+    border: solid 5px black;
+  }
+
+}
